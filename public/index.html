@@ -16,7 +16,9 @@
       </template>
     </dl>
     <script>
-      fetch("http:///api/v1/definitions")
+      fetch(
+        "https://wbdv-sait-api-json-sample.herokuapp.com/api/v1/definitions"
+      )
         .then(response => {
           return response.json();
         })
